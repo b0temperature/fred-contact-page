@@ -5,14 +5,44 @@
 @layer components {
   /* DARK GLASS (For Light Backgrounds) - Original Approved Version */
   .dark-glass {
-    background: rgba(0, 0, 0, 0.08);
-    backdrop-filter: blur(12px) brightness(0.85) saturate(1.2);
-    -webkit-backdrop-filter: blur(12px) brightness(0.85) saturate(1.2);
+    background: rgba(0, 0, 0, 0.03);
+    backdrop-filter: blur(12px) brightness(0.95) saturate(1.2);
+    -webkit-backdrop-filter: blur(12px) brightness(0.95) saturate(1.2);
     border: none;
-    box-shadow: inset 0 1px 2px rgba(255, 255, 255, 0.25), inset 0 -1px 2px rgba(0, 0, 0, 0.6), 0 8px 32px rgba(0, 0, 0, 0.15);
+    box-shadow: inset 0 1px 2px rgba(255, 255, 255, 0.2), inset 0 -1px 2px rgba(0, 0, 0, 0.4), 0 8px 32px rgba(0, 0, 0, 0.1);
     position: relative;
     overflow: hidden;
     transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  /* The actual glass shine on top */
+  .dark-glass::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    border-radius: inherit;
+    padding: 1px;
+    background: linear-gradient(
+      135deg,
+      rgba(255, 255, 255, 0.3) 0%,
+      rgba(255, 255, 255, 0.05) 20%,
+      rgba(255, 255, 255, 0.0) 50%,
+      rgba(0, 0, 0, 0.0) 80%,
+      rgba(0, 0, 0, 0.2) 100%
+    );
+    -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+    mask-composite: exclude;
+    pointer-events: none;
+  }
+
+  .dark-glass-frame {
+    background: linear-gradient(
+      135deg,
+      rgba(255, 255, 255, 0.05) 0%,
+      rgba(255, 255, 255, 0.01) 100%
+    );
+    box-shadow: 0 16px 40px rgba(0, 0, 0, 0.1);
   }
 
   .dark-glass-frame::before {
@@ -23,12 +53,12 @@
     padding: 1.5px;
     background: linear-gradient(
       to bottom right,
-      rgba(255, 255, 255, 0.7) 0px,
-      rgba(255, 255, 255, 0.15) 80px,
+      rgba(255, 255, 255, 0.5) 0px,
+      rgba(255, 255, 255, 0.1) 80px,
       rgba(0, 0, 0, 0) 150px,
       rgba(0, 0, 0, 0) calc(100% - 150px),
-      rgba(255, 255, 255, 0.1) calc(100% - 80px),
-      rgba(255, 255, 255, 0.5) 100%
+      rgba(255, 255, 255, 0.05) calc(100% - 80px),
+      rgba(255, 255, 255, 0.3) 100%
     );
     -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
     -webkit-mask-composite: xor;
@@ -101,17 +131,23 @@
     );
   }
 
-  /* COLOR TINTS - ONLY modifying background to preserve original glass lighting */
-  .tint-ruby { background: rgba(220, 20, 60, 0.15); }
-  .tint-emerald { background: rgba(46, 204, 113, 0.15); }
-  .tint-sapphire { background: rgba(65, 105, 225, 0.15); }
-  .tint-amethyst { background: rgba(155, 89, 182, 0.15); }
-  .tint-amber { background: rgba(241, 196, 15, 0.15); }
+  /* COLOR TINTS - Unique colors with higher transparency */
+  .tint-twitter { background: rgba(72, 174, 230, 0.1); }
+  .tint-instagram { background: rgba(242, 173, 218, 0.1); }
+  .tint-github { background: rgba(47, 50, 55, 0.1); }
+  .tint-telegram { background: rgba(167, 193, 217, 0.1); }
+  .tint-facebook { background: rgba(45, 78, 92, 0.1); }
+  .tint-steam { background: rgba(84, 82, 79, 0.1); }
+  .tint-email { background: rgba(244, 232, 206, 0.1); }
+  .tint-phone { background: rgba(87, 104, 86, 0.1); }
 
   /* Active states for tints (when pressed via group active) */
-  .group:active .tint-active-ruby { background: rgba(220, 20, 60, 0.25); }
-  .group:active .tint-active-emerald { background: rgba(46, 204, 113, 0.25); }
-  .group:active .tint-active-sapphire { background: rgba(65, 105, 225, 0.25); }
-  .group:active .tint-active-amethyst { background: rgba(155, 89, 182, 0.25); }
-  .group:active .tint-active-amber { background: rgba(241, 196, 15, 0.25); }
+  .group:active .tint-active-twitter { background: rgba(72, 174, 230, 0.2); }
+  .group:active .tint-active-instagram { background: rgba(242, 173, 218, 0.2); }
+  .group:active .tint-active-github { background: rgba(47, 50, 55, 0.2); }
+  .group:active .tint-active-telegram { background: rgba(167, 193, 217, 0.2); }
+  .group:active .tint-active-facebook { background: rgba(45, 78, 92, 0.2); }
+  .group:active .tint-active-steam { background: rgba(84, 82, 79, 0.2); }
+  .group:active .tint-active-email { background: rgba(244, 232, 206, 0.2); }
+  .group:active .tint-active-phone { background: rgba(87, 104, 86, 0.2); }
 }

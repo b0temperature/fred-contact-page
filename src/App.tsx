@@ -343,7 +343,7 @@ function App() {
                 <XIcon className="w-5 h-5 text-neutral-800 drop-shadow-sm" />
               </div>
               <div className="relative flex-1 rounded-xl overflow-hidden group-active:scale-[0.98] transition-transform h-[52px]">
-                <div className="absolute inset-0 rounded-xl dark-glass tint-sapphire tint-active-sapphire opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                <div className="absolute inset-0 rounded-xl dark-glass tint-twitter tint-active-twitter opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
                 <div className="relative z-10 px-4 flex flex-col justify-center h-full">
                   <span className="text-[10px] text-neutral-600 font-bold uppercase tracking-wider mb-0.5 group-hover:text-neutral-700 transition-colors">Twitter / X</span>
                   <span className="text-neutral-900 font-semibold text-sm drop-shadow-sm">@fredwjk</span>
@@ -357,7 +357,7 @@ function App() {
                 <InstagramIcon className="w-5 h-5 text-neutral-800 drop-shadow-sm" />
               </div>
               <div className="relative flex-1 rounded-xl overflow-hidden group-active:scale-[0.98] transition-transform h-[52px]">
-                <div className="absolute inset-0 rounded-xl dark-glass tint-ruby tint-active-ruby opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                <div className="absolute inset-0 rounded-xl dark-glass tint-instagram tint-active-instagram opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
                 <div className="relative z-10 px-4 flex flex-col justify-center h-full">
                   <span className="text-[10px] text-neutral-600 font-bold uppercase tracking-wider mb-0.5 group-hover:text-neutral-700 transition-colors">Instagram</span>
                   <span className="text-neutral-900 font-semibold text-sm drop-shadow-sm">tsinwang</span>
@@ -371,7 +371,7 @@ function App() {
                 <GithubIcon className="w-5 h-5 text-neutral-800 drop-shadow-sm" />
               </div>
               <div className="relative flex-1 rounded-xl overflow-hidden group-active:scale-[0.98] transition-transform h-[52px]">
-                <div className="absolute inset-0 rounded-xl dark-glass tint-amethyst tint-active-amethyst opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                <div className="absolute inset-0 rounded-xl dark-glass tint-github tint-active-github opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
                 <div className="relative z-10 px-4 flex flex-col justify-center h-full">
                   <span className="text-[10px] text-neutral-600 font-bold uppercase tracking-wider mb-0.5 group-hover:text-neutral-700 transition-colors">GitHub</span>
                   <span className="text-neutral-900 font-semibold text-sm drop-shadow-sm">b0temperature</span>
@@ -385,7 +385,7 @@ function App() {
                 <Send className="w-5 h-5 text-neutral-800 drop-shadow-sm" />
               </div>
               <div className="relative flex-1 rounded-xl overflow-hidden group-active:scale-[0.98] transition-transform h-[52px]">
-                <div className="absolute inset-0 rounded-xl dark-glass tint-sapphire tint-active-sapphire opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                <div className="absolute inset-0 rounded-xl dark-glass tint-telegram tint-active-telegram opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
                 <div className="relative z-10 px-4 flex flex-col justify-center h-full">
                   <span className="text-[10px] text-neutral-600 font-bold uppercase tracking-wider mb-0.5 group-hover:text-neutral-700 transition-colors">Telegram</span>
                   <span className="text-neutral-900 font-semibold text-sm drop-shadow-sm">fredwang105</span>
@@ -394,12 +394,12 @@ function App() {
             </a>
 
             {/* Facebook */}
-            <a href="#" target="_blank" rel="noreferrer" className="flex items-center gap-3 w-full group cursor-pointer">
+            <a href="https://facebook.com/public/Fred-Wang" target="_blank" rel="noreferrer" className="flex items-center gap-3 w-full group cursor-pointer">
               <div className="w-12 h-12 rounded-full dark-glass dark-glass-sm flex items-center justify-center shrink-0 group-hover:scale-110 group-active:scale-95 transition-transform">
                 <FacebookIcon className="w-5 h-5 text-neutral-800 drop-shadow-sm" />
               </div>
               <div className="relative flex-1 rounded-xl overflow-hidden group-active:scale-[0.98] transition-transform h-[52px]">
-                <div className="absolute inset-0 rounded-xl dark-glass tint-sapphire tint-active-sapphire opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                <div className="absolute inset-0 rounded-xl dark-glass tint-facebook tint-active-facebook opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
                 <div className="relative z-10 px-4 flex flex-col justify-center h-full">
                   <span className="text-[10px] text-neutral-600 font-bold uppercase tracking-wider mb-0.5 group-hover:text-neutral-700 transition-colors">Facebook</span>
                   <span className="text-neutral-900 font-semibold text-sm drop-shadow-sm">Fred Wang</span>
@@ -408,12 +408,12 @@ function App() {
             </a>
 
             {/* Steam */}
-            <a href="#" target="_blank" rel="noreferrer" className="flex items-center gap-3 w-full group cursor-pointer">
+            <a href="https://steamcommunity.com/id/wjkkkkkk" target="_blank" rel="noreferrer" className="flex items-center gap-3 w-full group cursor-pointer">
               <div className="w-12 h-12 rounded-full dark-glass dark-glass-sm flex items-center justify-center shrink-0 group-hover:scale-110 group-active:scale-95 transition-transform">
                 <SteamIcon className="w-5 h-5 text-neutral-800 drop-shadow-sm" />
               </div>
               <div className="relative flex-1 rounded-xl overflow-hidden group-active:scale-[0.98] transition-transform h-[52px]">
-                <div className="absolute inset-0 rounded-xl dark-glass tint-sapphire tint-active-sapphire opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                <div className="absolute inset-0 rounded-xl dark-glass tint-steam tint-active-steam opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
                 <div className="relative z-10 px-4 flex flex-col justify-center h-full">
                   <span className="text-[10px] text-neutral-600 font-bold uppercase tracking-wider mb-0.5 group-hover:text-neutral-700 transition-colors">Steam</span>
                   <span className="text-neutral-900 font-semibold text-sm drop-shadow-sm">wjkkkkkk</span>
@@ -427,7 +427,7 @@ function App() {
                 <Mail className="w-5 h-5 text-neutral-800 drop-shadow-sm" />
               </div>
               <div className="relative flex-1 rounded-xl overflow-hidden group-active:scale-[0.98] transition-transform">
-                <div className="absolute inset-0 rounded-xl dark-glass tint-amber tint-active-amber opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                <div className="absolute inset-0 rounded-xl dark-glass tint-email tint-active-email opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
                 <div className="relative z-10 px-5 py-4 flex flex-col justify-center h-full gap-3">
                   <div className="flex justify-between items-center border-b border-black/5 pb-2 group-hover:border-black/10 transition-colors">
                     <span className="text-[10px] text-neutral-600 font-bold uppercase tracking-wider group-hover:text-neutral-700 transition-colors">Primary Email</span>
@@ -447,7 +447,7 @@ function App() {
                 <Phone className="w-5 h-5 text-neutral-800 drop-shadow-sm" />
               </div>
               <div className="relative flex-1 rounded-xl overflow-hidden group-active:scale-[0.98] transition-transform">
-                <div className="absolute inset-0 rounded-xl dark-glass tint-emerald tint-active-emerald opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                <div className="absolute inset-0 rounded-xl dark-glass tint-phone tint-active-phone opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
                 <div className="relative z-10 px-5 py-4 flex flex-col justify-center h-full gap-3">
                   <div className="flex justify-between items-center border-b border-black/5 pb-2 group-hover:border-black/10 transition-colors">
                     <span className="text-[10px] text-neutral-600 font-bold uppercase tracking-wider group-hover:text-neutral-700 transition-colors">Phone (CN)</span>
