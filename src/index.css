@@ -132,22 +132,22 @@
   }
 
   /* COLOR TINTS - Unique colors with higher transparency */
-  .tint-twitter { background: rgba(72, 174, 230, 0.1); }
-  .tint-instagram { background: rgba(242, 173, 218, 0.1); }
-  .tint-github { background: rgba(47, 50, 55, 0.1); }
-  .tint-telegram { background: rgba(167, 193, 217, 0.1); }
-  .tint-facebook { background: rgba(45, 78, 92, 0.1); }
-  .tint-steam { background: rgba(84, 82, 79, 0.1); }
-  .tint-email { background: rgba(244, 232, 206, 0.1); }
-  .tint-phone { background: rgba(87, 104, 86, 0.1); }
+  .tint-twitter { background: rgba(72, 174, 230, 0.2); }
+  .tint-instagram { background: rgba(242, 173, 218, 0.2); }
+  .tint-github { background: rgba(47, 50, 55, 0.2); }
+  .tint-telegram { background: rgba(167, 193, 217, 0.2); }
+  .tint-facebook { background: rgba(45, 78, 92, 0.2); }
+  .tint-steam { background: rgba(84, 82, 79, 0.2); }
+  .tint-email { background: rgba(244, 232, 206, 0.2); }
+  .tint-phone { background: rgba(87, 104, 86, 0.2); }
 
   /* Active states for tints (when pressed via group active) */
-  .group:active .tint-active-twitter { background: rgba(72, 174, 230, 0.2); }
-  .group:active .tint-active-instagram { background: rgba(242, 173, 218, 0.2); }
-  .group:active .tint-active-github { background: rgba(47, 50, 55, 0.2); }
-  .group:active .tint-active-telegram { background: rgba(167, 193, 217, 0.2); }
-  .group:active .tint-active-facebook { background: rgba(45, 78, 92, 0.2); }
-  .group:active .tint-active-steam { background: rgba(84, 82, 79, 0.2); }
-  .group:active .tint-active-email { background: rgba(244, 232, 206, 0.2); }
-  .group:active .tint-active-phone { background: rgba(87, 104, 86, 0.2); }
+  .group:active .tint-active-twitter { background: rgba(72, 174, 230, 0.3); }
+  .group:active .tint-active-instagram { background: rgba(242, 173, 218, 0.3); }
+  .group:active .tint-active-github { background: rgba(47, 50, 55, 0.3); }
+  .group:active .tint-active-telegram { background: rgba(167, 193, 217, 0.3); }
+  .group:active .tint-active-facebook { background: rgba(45, 78, 92, 0.3); }
+  .group:active .tint-active-steam { background: rgba(84, 82, 79, 0.3); }
+  .group:active .tint-active-email { background: rgba(244, 232, 206, 0.3); }
+  .group:active .tint-active-phone { background: rgba(87, 104, 86, 0.3); }
 }
