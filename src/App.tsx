@@ -394,7 +394,7 @@ function App() {
             </a>
 
             {/* Facebook */}
-            <a href="https://facebook.com/public/Fred-Wang" target="_blank" rel="noreferrer" className="flex items-center gap-3 w-full group cursor-pointer">
+            <a href="https://www.facebook.com/share/1HJB2JQCGz/?mibextid=wwXIfr" target="_blank" rel="noreferrer" className="flex items-center gap-3 w-full group cursor-pointer">
               <div className="w-12 h-12 rounded-full dark-glass dark-glass-sm flex items-center justify-center shrink-0 group-hover:scale-110 group-active:scale-95 transition-transform">
                 <FacebookIcon className="w-5 h-5 text-neutral-800 drop-shadow-sm" />
               </div>
